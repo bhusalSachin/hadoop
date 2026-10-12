@@ -38,7 +38,7 @@ hadoop-*.log
 *.crc
 
 # Generated analytics results and chart images
-/analytics/output/**
+/analytics/output/*/_SUCCESS
 !/analytics/output/.gitkeep
 
 # Generated report document

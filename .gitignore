@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+.venv/
+venv/
+env/
+ENV/
+pip-wheel-metadata/
+*.egg-info/
+
+# Python tooling and test caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Local environment and editor/OS files
+.env
+.env.*
+!.env.example
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Spark and Hadoop local/runtime artifacts
+spark-warehouse/
+metastore_db/
+derby.log
+hadoop-*.log
+*.crc
+
+# Generated analytics results and chart images
+/analytics/output/**
+!/analytics/output/.gitkeep
+
+# Generated report document
+/report/NEPSE_Big_Data_Analytics_Report.docx
+
+.venv/
+./analytics/report/
+./report/*
